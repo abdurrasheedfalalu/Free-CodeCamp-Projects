@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Free Code Camp Survey Form</h1>
+  <p id="description">This Is a Test To Collect My Cetificate</p>
+  <div class="container">
+    <form action="" id="survey-form">
+      <fieldset class="first">
+        <label for="name">Enter Your Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        <label for="email">Enter Your Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+        <label for="number">Enter Your Age(Years):</label>
+        <input type="number" id="number" name="number" min="13" max="100" required>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">Choose Your Best School:</label>
+        <select name="dropdown" id="dropdown" required>
+          <option>select one</option>
+          <option>Free Code Camp</option>
+          <option>Solo Learn</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <section id="one">
+          <p>Would you recommend free codecamp to become your friend?</p>
+          <input type="radio" name="yes" id="1">
+          <label for="1">May be</label>
+          <input type="radio" name="yes" id="2">
+          <label for="2">Definetly</label>
+        </section>
+        
+        <section id="two">
+          <p>What You Like To Improve(check details)</p>
+          <input type="checkbox" name="check" id="back-end">
+          <label for="back-end">Backend</label>
+          <input type="checkbox" name="check" id="front-end">
+          <label for="front-end">Front end</label>
+          <input type="checkbox" name="check" id="software">
+          <label for="software">Software Development</label>
+          <p style="margin-left: -15px; margin-top: 2em;">
+            <label for="comment">Any recommended information</label>
+          </p>
+          <textarea name="textarea" id="comment" cols="30" rows="5" placeholder="Enter your comment here..." required></textarea>
+        </section>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </div>
+</body>
+</html>
