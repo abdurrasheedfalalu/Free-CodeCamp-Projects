@@ -1,0 +1,166 @@
+html,
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+    position: fixed;
+    border-right: solid;
+    border-color: #4d4e53;
+    width: 300px;
+    min-width: 250;
+    height: 100%;
+}
+
+#navbar ul {
+    margin-left: -40px;
+    margin-right: 10px;
+}
+
+#navbar ul li {
+    list-style: none;
+    border-bottom: #ffffff;
+    
+   
+}
+
+#navbar a {
+    display: block;
+    text-decoration: none;
+    border-top: 2px solid #4d4e53;
+    color: #4d4e53;
+    padding:5px  15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+#main-doc {
+    position: absolute;
+    margin-left: 20rem;
+}
+
+
+header {
+    font-size: 2rem;
+}
+
+article p {
+    width: 700px;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 16px; */
+}
+
+code {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #e1e5f9;
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#code-s {
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    html,
+body {
+    font-size: 0.8rem;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: sans-serif;
+  line-height: 1.2;
+}
+
+#navbar {
+    position: fixed;
+    border-right: solid;
+    border-color: #4d4e53;
+    width: 200px;
+    min-width: 150;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#navbar ul {
+    margin-left: -40px;
+    margin-right: 5px;
+}
+
+#navbar a {
+    display: block;
+    text-decoration: none;
+    border-top: 2px solid #4d4e53;
+    color: #4d4e53;
+    padding:5px  15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+#main-doc {
+    position: absolute;
+    margin-left: 15rem;
+    padding: 20px;
+}
+
+
+header {
+    font-size: 1.5rem;
+}
+
+article p {
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 16px; */
+}
+
+code {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #e1e5f9;
+    width: 200px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#code-s {
+    margin-left: 20px;
+}
+}
+
+
+/* #navbar {
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 100%;
+   min-width: 290px;
+   width: 300px;
+   border-right: solid;
+   border-color: rgba(0, 22, 22, 0.4);
+}
+
+#navbar ul {
+    display: block;
+    padding: 10px;
+}
+
+#navbar li {
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+
+
+#main-doc {
+    position: absolute;
+    margin-left: 20rem;
+    margin-bottom: 20px;
+} */
