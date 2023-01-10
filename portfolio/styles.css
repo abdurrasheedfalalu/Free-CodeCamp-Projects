@@ -87,5 +87,107 @@ p {
 
 #projects {
     background: var(--main-blue);
-    height: 100vh;
+    height: 150vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
+
+
+
+.project-tile img {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    
+}
+
+
+.footer {
+    background: var(--main-gray);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer i {
+    margin: 5px;
+}
+
+footer .title {
+    color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    font-style: italic;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer p {
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    margin-top: -5rem;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+@media (max-width: 600px) {
+    .projects-section {
+      padding: 6rem 1rem;
+    }
+    
+    footer .title {
+        font-size: 2rem;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    footer a{
+        color: #f0f0f0;
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .project-tile img {
+        width: 250px;
+        height: 200px;
+        margin: 5px;
+
+    }
+
+    #navbar {
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: #f0f0f0;
+    }
+
+    p {
+        font-size: 2.5rem;
+        font-style: italic;
+        color: #be3144;
+    }
+  }
